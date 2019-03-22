@@ -1,0 +1,22 @@
+Basic Command
+git init /// initialize local Git Repository 
+git status // 
+git add  // add file to index
+git commit // commit change in index
+git push  // push to remote repository 
+git pull // pull lastest from Remote 
+git clone // clone Reposity intor new directory
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/frestea09/tutorial-git.git
+git push -u origin master
+git branch <name>
+git checkout <name> //move to another 
+git rebase <name> //leave and delete branch . must in point in branch
+git branch -f <namebranc> HEAD~1
+git branch -f <namebranch> <namebranch>
+git reset HEAD~1
+git revert HEAD
+git cherry-pick head head head
+git rebase -i overHere
